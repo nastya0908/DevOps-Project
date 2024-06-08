@@ -1,6 +1,8 @@
 from src.calculator import add, subtract, multiply, divide
-
+from src.greeting import greeting
 def main():
+    greeting(input("What's your name? "))
+
     print("Select operation:")
     print("1. Add")
     print("2. Subtract")
