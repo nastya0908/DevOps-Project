@@ -1,5 +1,7 @@
 from src.calculator import add, subtract, multiply, divide
 from src.greeting import greeting
+
+
 def main():
     greeting(input("What's your name? "))
 
@@ -24,4 +26,3 @@ def main():
         print(f"{num1} / {num2} = {divide(num1, num2)}")
     else:
         print("Invalid input")
-
