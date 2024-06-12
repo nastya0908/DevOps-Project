@@ -23,12 +23,12 @@ jobs:
 
     - name: Build project
       run: |
-        python -m compileall ./DevOps-Project
+        python -m compileall ./calculator
 
     - name: Packing .pyc files into ZIP
       run: |
           mkdir pyc-files
-          mv ${{ github.workspace }}/DevOps-Project/__pycache__/*.pyc pyc-files
+          mv ${{ github.workspace }}/calculator/__pycache__/*.pyc pyc-files
           zip -r pyc-files.zip pyc-files
 
     - name: Create GitHub release

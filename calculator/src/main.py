@@ -1,5 +1,5 @@
-from src.calculator import add, subtract, multiply, divide
-from src.greeting import greeting
+from Calculator.src.calculator import add, subtract, multiply, divide
+from Calculator.src.greeting import greeting
 
 
 def main():
