@@ -1,4 +1,4 @@
-from calculator.src.greeting import greeting
+from Calculator.src.greeting import greeting
 
 
 def test_greeting(capsys):
